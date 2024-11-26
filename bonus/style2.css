@@ -3,10 +3,15 @@
 }
 
 .description{
-    padding-left: 20px;
+    padding: 0 20px;
+    font-size: 25px;
 }
 
 main a{
     color: black;
     text-decoration: none;
+}
+
+.grow{
+    flex-grow: 1;
 }
