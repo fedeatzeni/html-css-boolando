@@ -11,6 +11,7 @@ header{
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 900;
 }
 
 /* main  */
@@ -29,13 +30,92 @@ main{
     flex-wrap: wrap;
 }
 
-.product{
-    margin-bottom: 40px;
+/* card  */
+.card{
     width: 32%;
-    /* debug */
-    height: 150px;
-    background-color: gray;
 }
+
+.product{
+    position: relative;
+    /* debug */
+    /* height: 150px; */
+    /* background-color: gray; */
+}
+
+.product img{
+    width: 100%;
+}
+
+.img-b{
+    display: none;
+    position: relative;
+}
+
+/* img change */
+.product:hover .img-a{
+    display: none;
+}
+
+.product:hover .img-b{
+    display: block;
+}
+
+
+
+/* lables  */
+.lable{
+    background-color: white;
+    padding: 8px;
+    font-weight: 700;
+}
+
+.bg-red{
+    background-color: red;
+    color: white;
+}
+
+.bg-green{
+    background-color: green;
+    color: white;
+}
+
+.heart{
+    position: absolute;
+    right: 0;
+    top: 20px;
+    font-size: 30px;
+    padding: 8px 16px;
+}
+
+.discount{
+    position: absolute;
+    bottom: 30px;
+}
+
+.sustainability{
+    position: absolute;
+    bottom: 30px;
+    left: 60px;
+}
+
+/* description */
+.description{
+    margin-bottom: 40px;
+}
+
+.red{
+    color: red;
+}
+
+.name, .red{
+    font-weight: 700;
+}
+
+.line{
+    text-decoration: line-through;
+}
+
+
 
 /* footer  */
 footer{
