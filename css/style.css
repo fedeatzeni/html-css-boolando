@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header  */
+header{
+    height: 80px;
+    background-color: #ff6900;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* main  */
+main{
+    margin-top: 120px;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product{
+    margin-bottom: 40px;
+    width: 32%;
+    /* debug */
+    height: 150px;
+    background-color: gray;
+}
+
+/* footer  */
+footer{
+    height: 80px;
+    background-color: #1a1a1a;
+
+}
