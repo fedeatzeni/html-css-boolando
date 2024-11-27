@@ -73,7 +73,7 @@ main{
 }
 
 .product:hover .img-b{
-    display: block;
+    display: inline-block;
 }
 
 
